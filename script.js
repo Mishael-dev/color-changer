@@ -22,6 +22,7 @@ function get_random_color() {
   const color_index = Math.floor(Math.random() * colors.length);
 
   const color = colors[color_index];
+  
 
   return color;
 }
