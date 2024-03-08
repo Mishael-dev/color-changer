@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#eee;
+    display: grid;
+    place-content: center;
+    transition: all ease 500ms;
+}
+
+#color-box{
+    background-color: rgb(0, 110, 255);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+}
+
+#color-name{
+    text-align: center;
+    font:bold;
+    margin-top: 1rem;
+    background-color:black;
+    padding: 0.5rem;
+    color: white;
+    transition: all ease 1000;
+}
